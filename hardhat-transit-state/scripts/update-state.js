@@ -2,8 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
 
-  // Import State contract from existing address
-  const contract = await hre.ethers.getContractAt("State", "0x46Fd04eEa588a3EA7e9F055dd691C688c4148ab3");
+  const contract = await hre.ethers.getContractAt("State", "0x280c1aE69629CcFd47033714cf4f5798Fa4F9343");
 
   // Add inputs from proof
   const id = "0x00e00c0ee273921f3aa97ba2de5480f140b17e2d35943a8f17a7f45aa04f0000"
